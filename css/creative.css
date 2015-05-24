@@ -55,13 +55,17 @@ p {
     background-color: #f05f40;
 }
 
+.bg-primary p a {
+    color: rgba(255,255,255,.9);
+}
+
 .bg-dark {
     color: #fff;
     background-color: #222;
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.8);
 }
 
 section {
@@ -128,7 +132,7 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.7);
+        color: rgba(255,255,255,.8);
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -138,7 +142,7 @@ aside {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.7);
+        color: rgba(255,255,255,.8);
     }
 
     .navbar-default .nav > li>a:hover,
@@ -178,7 +182,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -207,8 +211,8 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
-    font-weight: 300;
-    color: rgba(255,255,255,.7);
+    font-weight: 400;
+    color: rgba(255,255,255,.8);
 }
 
 @media(min-width:768px) {
