@@ -191,7 +191,7 @@ header {
 }
 
 header.sponsoren {
-    background-image: url(../img/header_sponsoren.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/header_sponsoren.jpg);
 }
 
 header .header-content {
