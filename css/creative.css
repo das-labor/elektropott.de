@@ -190,6 +190,10 @@ header {
     -o-background-size: cover;
 }
 
+header.sponsoren {
+    background-image: url(../img/header_sponsoren.jpg);
+}
+
 header .header-content {
     position: relative;
     width: 100%;
